@@ -3,7 +3,7 @@ import configparser
 from telegram import InlineKeyboardMarkup, InlineKeyboardButton
 from telegram.ext import Updater, CallbackQueryHandler, CommandHandler, MessageHandler, Filters
 import urllib.request
-LINK = 'https://ulkabo.github.io/bot-10-00/data/'
+LINK = 'https://Segonist.github.io/oh_bot/data'
 '''
 TOK = None
 config = configparser.ConfigParser()
@@ -186,7 +186,7 @@ def conditions(update, context):
 
     
 def main():
-    updater = Updater("1658025132:AAEkkZbNEJwES37WTVegjsuSzNFWdU_NBQc", use_context=True)
+    updater = Updater("1631947910:AAE4CbD2lspy6MB4tbO5gNRvv1WltAVSy3Q", use_context=True)
 
     dp = updater.dispatcher
 
